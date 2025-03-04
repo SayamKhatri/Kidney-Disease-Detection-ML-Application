@@ -1,3 +1,12 @@
+from src.pipeline.stage_01_data_ingestion import *
 from src import logger
 
-logger.info("This is a test log from main.py")
+if __name__ == '__main__':
+    try:
+        logger.info(f'{STAGE_NAME} started')
+        obj = DataIngestionTrainingPipeline()
+        obj.main()
+        logger.info(f'{STAGE_NAME} completed')
+    except Exception as e:
+        logger.exception(e)
+        raise e
