@@ -1,6 +1,6 @@
-from src.config.configuration import ConfigurationManager
-from src.components.prepare_base_model import PrepareBaseModel
-from src import logger
+from mypackage.config.configuration import ConfigurationManager
+from mypackage.components.prepare_base_model import PrepareBaseModel
+from mypackage import logger
 
 
 STAGE_NAME = "Prepare base model"

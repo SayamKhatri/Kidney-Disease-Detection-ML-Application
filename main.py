@@ -1,6 +1,6 @@
-from src.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from src.pipeline.stage_02_base_model import PrepareBaseModelTrainingPipeline
-from src import logger
+from mypackage.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from mypackage.pipeline.stage_02_base_model import PrepareBaseModelTrainingPipeline
+from mypackage import logger
 
 
 STAGE_NAME = "DATA INGESTION"

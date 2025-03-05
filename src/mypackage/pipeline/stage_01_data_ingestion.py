@@ -1,6 +1,6 @@
-from src.config.configuration import ConfigurationManager
-from src.components.data_ingestion import DataIngestion
-from src import logger
+from mypackage.config.configuration import ConfigurationManager
+from mypackage.components.data_ingestion import DataIngestion
+from mypackage import logger
 
 STAGE_NAME = "DATA INGESTION STAGE"
 

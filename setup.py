@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Disease-Detection-ML-Applicationt"
 AUTHOR_USER_NAME = "SayamKhatri"
-SRC_REPO = "src"
+SRC_REPO = "mypackage"
 AUTHOR_EMAIL = "khatri.say@northeastern.edu"
 
 

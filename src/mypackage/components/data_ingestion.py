@@ -2,10 +2,10 @@ import os
 import zipfile 
 import gdown 
 
-from src import logger
+from mypackage import logger
 
-from src.utils.common import get_size
-from src.entity.config_entity import DataIngestionConfig
+from mypackage.utils.common import get_size
+from mypackage.entity.config_entity import DataIngestionConfig
 
 
 class DataIngestion:

@@ -1,6 +1,6 @@
-from src.constants import * 
-from src.utils.common import read_yaml, create_directories
-from src.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig
+from mypackage.constants import * 
+from mypackage.utils.common import read_yaml, create_directories
+from mypackage.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig
 
 class ConfigurationManager:
     def __init__(self, config_filepath = CONFIG_FILE_PATH,
