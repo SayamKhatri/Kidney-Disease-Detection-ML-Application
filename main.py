@@ -1,6 +1,7 @@
 from mypackage.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from mypackage.pipeline.stage_02_base_model import PrepareBaseModelTrainingPipeline
 from mypackage.pipeline.stage_03_model_training import ModelTrainingPipeline
+from mypackage.pipeline.stage_04_model_eval import EvaluationPipeline
 from mypackage import logger
 
 
@@ -38,3 +39,15 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+
+STAGE_NAME = "Evaluation stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   model_evalution = EvaluationPipeline()
+   model_evalution.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+
+except Exception as e:
+        logger.exception(e)
+        raise e

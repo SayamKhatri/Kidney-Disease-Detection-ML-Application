@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/samkhatri/Desktop/Data%20Science%20Projects/Deep%20Learning/Kidney-Disease-Detection-ML-Application/mlruns/0/d93663e3488f412a91fe43101c9cb526/artifacts
+end_time: 1741195838326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d93663e3488f412a91fe43101c9cb526
+run_name: honorable-cub-802
+run_uuid: d93663e3488f412a91fe43101c9cb526
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741195837663
+status: 4
+tags: []
+user_id: samkhatri
