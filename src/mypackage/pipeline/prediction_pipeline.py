@@ -8,7 +8,7 @@ class PredictionPipeline:
         self.filename = filename
 
     def predict(self):
-        model = tf.keras.models.load_model(os.path.join('artifacts','training','model.h5'))
+        model = tf.keras.models.load_model(os.path.join('model','model.h5'))
         imagename = self.filename
         test_image = tf.keras.utils.load_img(imagename, target_size=(224,224))
         test_image = tf.keras.utils.img_to_array(test_image)
