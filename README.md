@@ -101,8 +101,16 @@ The application is containerized using Docker for consistent deployment across e
 
    The application will be accessible at `http://localhost:5000/`
 
+   ![image](https://github.com/user-attachments/assets/6e65de9b-de95-432d-85c5-515f447f02dc)
+
+
+
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+# Snippets
+
+<img width="1470" alt="Screenshot 2025-03-05 at 4 43 18 PM" src="https://github.com/user-attachments/assets/d5aab087-2449-44ec-9679-35818a5a3eda" />
 
